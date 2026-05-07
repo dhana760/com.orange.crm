@@ -3,4 +3,35 @@
   <groupId>com.orange.crm</groupId>
   <artifactId>com.orange.crm</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+    <!-- Selenium -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.20.0</version>
+    </dependency>
+
+    <!-- TestNG -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.9.0</version>
+    </dependency>
+
+    <!-- Apache POI (Excel handling) -->
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi-ooxml</artifactId>
+        <version>5.2.5</version>
+    </dependency>
+
+    <!-- WebDriverManager -->
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>5.8.0</version>
+    </dependency>
+</dependencies>
+  
 </project>
