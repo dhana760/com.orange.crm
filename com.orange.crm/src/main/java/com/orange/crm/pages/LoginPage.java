@@ -17,7 +17,7 @@ public class LoginPage {
             By.name("password");
 
     private final By loginButton =
-            By.xpath("//button[@type='submit']");
+            By.xpath("//button[@type='submi']");
 
     public LoginPage(WebDriver driver) {
 

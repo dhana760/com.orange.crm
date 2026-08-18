@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import com.orange.crm.driver.DriverFactory;
+import com.orange.crm.utils.ConfigReader;
 
 public class BaseTest {
 
@@ -15,7 +16,7 @@ public class BaseTest {
 	public void browserStart()
 	{
 		driver= DriverFactory.createDriver();
-		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		driver.get(ConfigReader.get("baseUrl"));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	}
 	
@@ -26,5 +27,8 @@ public class BaseTest {
             driver.quit();
         }
 
+	}
+	public WebDriver getDriver() {
+	    return driver;
 	}
 }

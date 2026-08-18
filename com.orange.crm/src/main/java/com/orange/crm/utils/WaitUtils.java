@@ -13,12 +13,16 @@ public class WaitUtils {
     private final WebDriverWait wait;
 
     public WaitUtils(WebDriver driver) {
+
+        int timeout = Integer.parseInt(
+                ConfigReader.get("explicitWait")
+        );
+
         this.wait = new WebDriverWait(
                 driver,
-                Duration.ofSeconds(10)
+                Duration.ofSeconds(timeout)
         );
     }
-
     public WebElement waitForElement(By locator) {
 
         return wait.until(
