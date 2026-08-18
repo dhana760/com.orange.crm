@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.orange.crm.test.Verify_login">
+      <class name="com.orange.crm.test.Logintest">
         <methods>
-          <include name="verifyLogin"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
+          <include name="browserStart"/>
+          <include name="validateLogin"/>
+          <include name="browserStop"/>
         </methods>
-      </class> <!-- com.orange.crm.test.Verify_login -->
+      </class> <!-- com.orange.crm.test.Logintest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
