@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-12T15:04:57 IST" name="Default suite" finished-at="2026-08-12T15:05:14 IST" duration-ms="17338">
+  <suite started-at="2026-08-18T08:12:11 IST" name="Default suite" finished-at="2026-08-18T08:12:25 IST" duration-ms="14234">
     <groups>
     </groups>
-    <test started-at="2026-08-12T15:04:57 IST" name="Default test" finished-at="2026-08-12T15:05:14 IST" duration-ms="17338">
+    <test started-at="2026-08-18T08:12:11 IST" name="Default test" finished-at="2026-08-18T08:12:25 IST" duration-ms="14234">
       <class name="com.orange.crm.test.LoginTest">
-        <test-method is-config="true" signature="browserStart()[pri:0, instance:com.orange.crm.test.LoginTest@7161d8d1]" started-at="2026-08-12T15:04:57 IST" name="browserStart" finished-at="2026-08-12T15:05:12 IST" duration-ms="15501" status="PASS">
+        <test-method is-config="true" signature="browserStart()[pri:0, instance:com.orange.crm.test.LoginTest@742ff096]" started-at="2026-08-18T08:12:11 IST" name="browserStart" finished-at="2026-08-18T08:12:23 IST" duration-ms="11549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserStart -->
-        <test-method signature="validLoginTest()[pri:0, instance:com.orange.crm.test.LoginTest@7161d8d1]" started-at="2026-08-12T15:05:12 IST" name="validLoginTest" finished-at="2026-08-12T15:05:14 IST" duration-ms="1363" status="PASS">
+        <test-method signature="validLoginTest()[pri:0, instance:com.orange.crm.test.LoginTest@742ff096]" started-at="2026-08-18T08:12:23 IST" name="validLoginTest" finished-at="2026-08-18T08:12:25 IST" duration-ms="2107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="browserStop()[pri:0, instance:com.orange.crm.test.LoginTest@7161d8d1]" started-at="2026-08-12T15:05:14 IST" name="browserStop" finished-at="2026-08-12T15:05:14 IST" duration-ms="394" status="PASS">
+        <test-method is-config="true" signature="browserStop()[pri:0, instance:com.orange.crm.test.LoginTest@742ff096]" started-at="2026-08-18T08:12:25 IST" name="browserStop" finished-at="2026-08-18T08:12:25 IST" duration-ms="502" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserStop -->
