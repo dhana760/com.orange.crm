@@ -4,7 +4,6 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-
 import com.orange.crm.factory.DriverFactory;
 import com.orange.crm.utils.ConfigReader;
 import com.orange.crm.utils.LoggerUtils;
@@ -41,3 +40,4 @@ public class BaseTest {
         return DriverFactory.getDriver();
     }
 }
+    
