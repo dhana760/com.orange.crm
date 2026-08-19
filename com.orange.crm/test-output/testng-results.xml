@@ -2,40 +2,24 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-19T15:25:56 IST" name="OrangeCRM" finished-at="2026-08-19T15:26:38 IST" duration-ms="41858">
+  <suite started-at="2026-08-19T16:50:15 IST" name="OrangeCRM" finished-at="2026-08-19T16:51:09 IST" duration-ms="54403">
     <groups>
     </groups>
-    <test started-at="2026-08-19T15:25:56 IST" name="Login Tests" finished-at="2026-08-19T15:26:38 IST" duration-ms="41858">
+    <test started-at="2026-08-19T16:50:15 IST" name="Login Tests" finished-at="2026-08-19T16:51:09 IST" duration-ms="54403">
       <class name="com.orange.crm.test.LoginTest">
-        <test-method is-config="true" signature="browserStart()[pri:0, instance:com.orange.crm.test.LoginTest@42a9e5d1]" started-at="2026-08-19T15:25:58 IST" name="browserStart" finished-at="2026-08-19T15:26:24 IST" duration-ms="25773" status="PASS">
+        <test-method is-config="true" signature="browserStart()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-19T16:50:17 IST" name="browserStart" finished-at="2026-08-19T16:50:28 IST" duration-ms="11348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserStart -->
-        <test-method is-config="true" signature="browserStart()[pri:0, instance:com.orange.crm.test.LoginTest@42a9e5d1]" started-at="2026-08-19T15:25:58 IST" name="browserStart" finished-at="2026-08-19T15:26:31 IST" duration-ms="32362" status="PASS">
+        <test-method is-config="true" signature="browserStart()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-19T16:50:17 IST" name="browserStart" finished-at="2026-08-19T16:50:53 IST" duration-ms="35917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserStart -->
-        <test-method is-config="true" signature="browserStart()[pri:0, instance:com.orange.crm.test.LoginTest@42a9e5d1]" started-at="2026-08-19T15:25:58 IST" name="browserStart" finished-at="2026-08-19T15:26:35 IST" duration-ms="36631" status="PASS">
+        <test-method is-config="true" signature="browserStart()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-19T16:50:17 IST" name="browserStart" finished-at="2026-08-19T16:50:42 IST" duration-ms="25003" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserStart -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orange.crm.test.LoginTest@42a9e5d1]" started-at="2026-08-19T15:26:24 IST" name="validLoginTest" data-provider="loginData" finished-at="2026-08-19T15:26:31 IST" duration-ms="6931" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1.23232133E8]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[45454rewfewr324]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orange.crm.test.LoginTest@42a9e5d1]" started-at="2026-08-19T15:26:31 IST" name="validLoginTest" data-provider="loginData" finished-at="2026-08-19T15:26:35 IST" duration-ms="4164" status="PASS">
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-19T16:50:28 IST" name="validLoginTest" data-provider="loginData" finished-at="2026-08-19T16:51:07 IST" duration-ms="38779" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,15 +35,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="browserStop()[pri:0, instance:com.orange.crm.test.LoginTest@42a9e5d1]" started-at="2026-08-19T15:26:31 IST" name="browserStop" finished-at="2026-08-19T15:26:36 IST" duration-ms="4637" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserStop -->
-        <test-method is-config="true" signature="browserStop()[pri:0, instance:com.orange.crm.test.LoginTest@42a9e5d1]" started-at="2026-08-19T15:26:35 IST" name="browserStop" finished-at="2026-08-19T15:26:36 IST" duration-ms="1509" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserStop -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orange.crm.test.LoginTest@42a9e5d1]" started-at="2026-08-19T15:26:35 IST" name="validLoginTest" data-provider="loginData" finished-at="2026-08-19T15:26:37 IST" duration-ms="2227" status="PASS">
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-19T16:50:42 IST" name="validLoginTest" data-provider="loginData" finished-at="2026-08-19T16:51:03 IST" duration-ms="21611" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,7 +51,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="browserStop()[pri:0, instance:com.orange.crm.test.LoginTest@42a9e5d1]" started-at="2026-08-19T15:26:37 IST" name="browserStop" finished-at="2026-08-19T15:26:38 IST" duration-ms="824" status="PASS">
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-19T16:50:53 IST" name="validLoginTest" data-provider="loginData" finished-at="2026-08-19T16:51:06 IST" duration-ms="13279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123232133]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45454rewfewr324]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="browserStop()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-19T16:51:04 IST" name="browserStop" finished-at="2026-08-19T16:51:09 IST" duration-ms="5403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserStop -->
+        <test-method is-config="true" signature="browserStop()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-19T16:51:06 IST" name="browserStop" finished-at="2026-08-19T16:51:09 IST" duration-ms="2996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserStop -->
+        <test-method is-config="true" signature="browserStop()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-19T16:51:07 IST" name="browserStop" finished-at="2026-08-19T16:51:09 IST" duration-ms="2291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserStop -->
