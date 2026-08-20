@@ -21,6 +21,8 @@ public class LoginPage {
     private final By loginButton =
             By.xpath("//button[@type='submit']");
     
+//    private final By loginName= By.xpath("//h5[normalize-space()='Login']");
+    
     private static final Logger logger =
             LoggerUtils.getLogger(LoginPage.class);
 
@@ -50,4 +52,21 @@ public class LoginPage {
         wait.waitForClickability(loginButton);
         driver.findElement(loginButton).click();
     }
+    
+//    public boolean validateLoginName() {
+//
+//    	logger.info("Validating Login Process");
+//        wait.waitForElement(loginName);
+//        String Actual=driver.findElement(loginName).getText();
+//        System.out.println(Actual);
+//        if(Actual=="Login")
+//        {
+//        	return false;
+//
+//        }
+//        else {
+//        	return true;
+//        }
+//		
+//    }
 }

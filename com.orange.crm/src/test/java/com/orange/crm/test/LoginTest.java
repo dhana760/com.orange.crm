@@ -32,5 +32,6 @@ public class LoginTest extends BaseTest {
 		    loginPage.enterUsername(username);
 		    loginPage.enterPassword(password);
 		    loginPage.clickLogin();
+//		   Assert.assertEquals(loginPage.validateLoginName(),true,"Login successfully"); 
 		}
 }

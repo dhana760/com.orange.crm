@@ -1,62 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="3" ignored="3" total="9" passed="0" failed="3" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-20T14:17:10 IST" name="OrangeCRM" finished-at="2026-08-20T14:19:40 IST" duration-ms="150167">
+  <suite started-at="2026-08-20T19:21:01 IST" name="OrangeCRM" finished-at="2026-08-20T19:21:18 IST" duration-ms="16484">
     <groups>
     </groups>
-    <test started-at="2026-08-20T14:17:10 IST" name="Login Tests" finished-at="2026-08-20T14:19:40 IST" duration-ms="150167">
+    <test started-at="2026-08-20T19:21:01 IST" name="Login Tests" finished-at="2026-08-20T19:21:18 IST" duration-ms="16484">
       <class name="com.orange.crm.test.LoginTest">
-        <test-method is-config="true" signature="browserStart()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T14:17:12 IST" name="browserStart" finished-at="2026-08-20T14:18:13 IST" duration-ms="60587" status="PASS">
+        <test-method is-config="true" signature="browserStart()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T19:21:03 IST" name="browserStart" finished-at="2026-08-20T19:21:09 IST" duration-ms="6608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserStart -->
-        <test-method is-config="true" signature="browserStart()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T14:17:12 IST" name="browserStart" finished-at="2026-08-20T14:18:14 IST" duration-ms="61679" status="PASS">
+        <test-method is-config="true" signature="browserStart()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T19:21:03 IST" name="browserStart" finished-at="2026-08-20T19:21:15 IST" duration-ms="12081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserStart -->
-        <test-method is-config="true" signature="browserStart()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T14:17:12 IST" name="browserStart" finished-at="2026-08-20T14:18:50 IST" duration-ms="98165" status="PASS">
+        <test-method is-config="true" signature="browserStart()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T19:21:03 IST" name="browserStart" finished-at="2026-08-20T19:21:15 IST" duration-ms="12510" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserStart -->
-        <test-method retried="true" signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T14:18:13 IST" name="validLoginTest" data-provider="loginData" finished-at="2026-08-20T14:18:26 IST" duration-ms="12968" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[123232133]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[45454rewfewr324]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Intentional failure to test retry]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Intentional failure to test retry
-at org.testng.Assert.fail(Assert.java:111)
-at com.orange.crm.test.LoginTest.validLoginTest(LoginTest.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1570)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method retried="true" signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T14:18:14 IST" name="validLoginTest" data-provider="loginData" finished-at="2026-08-20T14:18:30 IST" duration-ms="16342" status="SKIP">
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T19:21:09 IST" name="validLoginTest" data-provider="loginData" finished-at="2026-08-20T19:21:15 IST" duration-ms="5413" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -69,226 +32,50 @@ at java.base/java.lang.Thread.run(Thread.java:1570)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Intentional failure to test retry]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Intentional failure to test retry
-at org.testng.Assert.fail(Assert.java:111)
-at com.orange.crm.test.LoginTest.validLoginTest(LoginTest.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1570)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="browserStop()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T14:18:26 IST" name="browserStop" finished-at="2026-08-20T14:18:26 IST" duration-ms="844" status="PASS">
+        <test-method is-config="true" signature="browserStop()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T19:21:15 IST" name="browserStop" finished-at="2026-08-20T19:21:15 IST" duration-ms="577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserStop -->
-        <test-method is-config="true" signature="browserStart()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T14:18:26 IST" name="browserStart" finished-at="2026-08-20T14:18:33 IST" duration-ms="6214" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserStart -->
-        <test-method is-config="true" signature="browserStop()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T14:18:30 IST" name="browserStop" finished-at="2026-08-20T14:18:32 IST" duration-ms="1539" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserStop -->
-        <test-method is-config="true" signature="browserStart()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T14:18:32 IST" name="browserStart" finished-at="2026-08-20T14:18:48 IST" duration-ms="16649" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserStart -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T14:18:33 IST" name="validLoginTest" data-provider="loginData" finished-at="2026-08-20T14:19:12 IST" duration-ms="39717" status="FAIL">
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T19:21:15 IST" name="validLoginTest" data-provider="loginData" finished-at="2026-08-20T19:21:16 IST" duration-ms="1466" status="PASS">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[123232133]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[45454rewfewr324]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Intentional failure to test retry]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Intentional failure to test retry
-at org.testng.Assert.fail(Assert.java:111)
-at com.orange.crm.test.LoginTest.validLoginTest(LoginTest.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:104)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1570)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T14:18:48 IST" name="validLoginTest" data-provider="loginData" finished-at="2026-08-20T14:19:19 IST" duration-ms="31064" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[pass123]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Intentional failure to test retry]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Intentional failure to test retry
-at org.testng.Assert.fail(Assert.java:111)
-at com.orange.crm.test.LoginTest.validLoginTest(LoginTest.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:104)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1570)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method retried="true" signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T14:18:50 IST" name="validLoginTest" data-provider="loginData" finished-at="2026-08-20T14:19:20 IST" duration-ms="30256" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
               <value>
                 <![CDATA[password]]>
               </value>
             </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element found by By.name: username, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}.
-(tried for 30 seconds with 500 milliseconds interval)
-Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.138, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\dhana\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50062}, goog:processID: 22164, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50062/devtoo..., se:cdpVersion: 151.0.7922.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e17cbc2b207e90244e18ce9cf70748db]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.name: username, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}.
-(tried for 30 seconds with 500 milliseconds interval)
-Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.138, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\dhana\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50062}, goog:processID: 22164, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50062/devtoo..., se:cdpVersion: 151.0.7922.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e17cbc2b207e90244e18ce9cf70748db
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-at com.orange.crm.utils.WaitUtils.waitForElement(WaitUtils.java:28)
-at com.orange.crm.pages.LoginPage.enterUsername(LoginPage.java:36)
-at com.orange.crm.test.LoginTest.validLoginTest(LoginTest.java:32)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1570)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="browserStop()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T14:19:13 IST" name="browserStop" finished-at="2026-08-20T14:19:15 IST" duration-ms="2199" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserStop -->
-        <test-method is-config="true" signature="browserStop()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T14:19:19 IST" name="browserStop" finished-at="2026-08-20T14:19:20 IST" duration-ms="705" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserStop -->
-        <test-method is-config="true" signature="browserStop()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T14:19:20 IST" name="browserStop" finished-at="2026-08-20T14:19:21 IST" duration-ms="494" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserStop -->
-        <test-method is-config="true" signature="browserStart()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T14:19:21 IST" name="browserStart" finished-at="2026-08-20T14:19:33 IST" duration-ms="12381" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserStart -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T14:19:33 IST" name="validLoginTest" data-provider="loginData" finished-at="2026-08-20T14:19:39 IST" duration-ms="5922" status="FAIL">
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T19:21:15 IST" name="validLoginTest" data-provider="loginData" finished-at="2026-08-20T19:21:17 IST" duration-ms="2296" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[admin]]>
+                <![CDATA[Admin]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[password]]>
+                <![CDATA[admin123]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Intentional failure to test retry]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Intentional failure to test retry
-at org.testng.Assert.fail(Assert.java:111)
-at com.orange.crm.test.LoginTest.validLoginTest(LoginTest.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:104)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1570)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="browserStop()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T14:19:39 IST" name="browserStop" finished-at="2026-08-20T14:19:40 IST" duration-ms="474" status="PASS">
+        <test-method is-config="true" signature="browserStop()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T19:21:16 IST" name="browserStop" finished-at="2026-08-20T19:21:17 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserStop -->
+        <test-method is-config="true" signature="browserStop()[pri:0, instance:com.orange.crm.test.LoginTest@878452d]" started-at="2026-08-20T19:21:17 IST" name="browserStop" finished-at="2026-08-20T19:21:18 IST" duration-ms="416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserStop -->

@@ -7,7 +7,7 @@
         <methods>
           <include name="browserStart"/>
           <include name="browserStop"/>
-          <include name="validLoginTest" invocation-numbers="0 1 2"/>
+          <include name="validLoginTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.orange.crm.test.LoginTest -->
     </classes>
