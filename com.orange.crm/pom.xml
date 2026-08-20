@@ -4,6 +4,12 @@
   <artifactId>com.orange.crm</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <properties>
+    <maven.compiler.release>17</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+</properties>
+  
   <dependencies>
     <!-- Selenium -->
     <dependency>
@@ -16,7 +22,7 @@
     <dependency>
         <groupId>org.testng</groupId>
         <artifactId>testng</artifactId>
-        <version>7.9.0</version>
+        <version>7.11.0</version>
     </dependency>
 
     <!-- Apache POI (Excel handling) -->
