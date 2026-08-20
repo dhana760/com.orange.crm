@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-OrangeCRM" class="navigator-link">
-              <span class="suite-name border-passed">OrangeCRM</span>
+              <span class="suite-name border-failed">OrangeCRM</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,31 +92,55 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">6 methods, 3 failed,  3 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-OrangeCRM" class="hide-methods passed suite-OrangeCRM"> (hide)</a> <!-- hide-methods passed suite-OrangeCRM -->
-                      <a href="#" panel-name="suite-OrangeCRM" class="show-methods passed suite-OrangeCRM"> (show)</a> <!-- show-methods passed suite-OrangeCRM -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-OrangeCRM" class="hide-methods failed suite-OrangeCRM"> (hide)</a> <!-- hide-methods failed suite-OrangeCRM -->
+                      <a href="#" panel-name="suite-OrangeCRM" class="show-methods failed suite-OrangeCRM"> (show)</a> <!-- show-methods failed suite-OrangeCRM -->
                     </span>
-                    <div class="method-list-content passed suite-OrangeCRM">
+                    <div class="method-list-content failed suite-OrangeCRM">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-OrangeCRM" title="com.orange.crm.test.LoginTest" class="method navigator-link" hash-for-method="validLoginTest(admin, password)">validLoginTest(admin, password)</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeCRM" title="com.orange.crm.test.LoginTest" class="method navigator-link" hash-for-method="validLoginTest(user1, pass123)">validLoginTest(user1, pass123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-OrangeCRM" title="com.orange.crm.test.LoginTest" class="method navigator-link" hash-for-method="validLoginTest(123232133, 45454rewfewr324)">validLoginTest(123232133, 45454rewfewr324)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeCRM" title="com.orange.crm.test.LoginTest" class="method navigator-link" hash-for-method="validLoginTest(admin, password)">validLoginTest(admin, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-OrangeCRM -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-OrangeCRM" class="hide-methods skipped suite-OrangeCRM"> (hide)</a> <!-- hide-methods skipped suite-OrangeCRM -->
+                      <a href="#" panel-name="suite-OrangeCRM" class="show-methods skipped suite-OrangeCRM"> (show)</a> <!-- show-methods skipped suite-OrangeCRM -->
+                    </span>
+                    <div class="method-list-content skipped suite-OrangeCRM">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeCRM" title="com.orange.crm.test.LoginTest" class="method navigator-link" hash-for-method="validLoginTest(123232133, 45454rewfewr324)">validLoginTest(123232133, 45454rewfewr324)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-OrangeCRM" title="com.orange.crm.test.LoginTest" class="method navigator-link" hash-for-method="validLoginTest(admin, password)">validLoginTest(admin, password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-OrangeCRM" title="com.orange.crm.test.LoginTest" class="method navigator-link" hash-for-method="validLoginTest(user1, pass123)">validLoginTest(user1, pass123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-OrangeCRM -->
+                    </div> <!-- method-list-content skipped suite-OrangeCRM -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -128,18 +152,26 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-OrangeCRM" class="panel OrangeCRM">
-          <div class="suite-OrangeCRM-class-passed">
+          <div class="suite-OrangeCRM-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.orange.crm.test.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validLoginTest(admin, password)">
-                  </a> <!-- validLoginTest(admin, password) -->
+                  <a name="validLoginTest(user1, pass123)">
+                  </a> <!-- validLoginTest(user1, pass123) -->
                   <span class="method-name">validLoginTest</span>
-                  <span class="parameters">(admin,password)</span>
+                  <span class="parameters">(user1,pass123)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Intentional failure to test retry
+	at com.orange.crm.test.LoginTest.validLoginTest(LoginTest.java:35)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 7 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -148,6 +180,80 @@
                   </a> <!-- validLoginTest(123232133, 45454rewfewr324) -->
                   <span class="method-name">validLoginTest</span>
                   <span class="parameters">(123232133,45454rewfewr324)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Intentional failure to test retry
+	at com.orange.crm.test.LoginTest.validLoginTest(LoginTest.java:35)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 7 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginTest(admin, password)">
+                  </a> <!-- validLoginTest(admin, password) -->
+                  <span class="method-name">validLoginTest</span>
+                  <span class="parameters">(admin,password)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Intentional failure to test retry
+	at com.orange.crm.test.LoginTest.validLoginTest(LoginTest.java:35)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 7 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-OrangeCRM-class-failed -->
+          <div class="suite-OrangeCRM-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.orange.crm.test.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginTest(123232133, 45454rewfewr324)">
+                  </a> <!-- validLoginTest(123232133, 45454rewfewr324) -->
+                  <span class="method-name">validLoginTest</span>
+                  <span class="parameters">(123232133,45454rewfewr324)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Intentional failure to test retry
+	at com.orange.crm.test.LoginTest.validLoginTest(LoginTest.java:35)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 7 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginTest(admin, password)">
+                  </a> <!-- validLoginTest(admin, password) -->
+                  <span class="method-name">validLoginTest</span>
+                  <span class="parameters">(admin,password)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.name: username, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;username&apos;]&quot;}.
+(tried for 30 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.138, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\dhana\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50062}, goog:processID: 22164, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50062/devtoo..., se:cdpVersion: 151.0.7922.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e17cbc2b207e90244e18ce9cf70748db
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at com.orange.crm.utils.WaitUtils.waitForElement(WaitUtils.java:28)
+	at com.orange.crm.pages.LoginPage.enterUsername(LoginPage.java:36)
+	at com.orange.crm.test.LoginTest.validLoginTest(LoginTest.java:32)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 6 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -156,10 +262,18 @@
                   </a> <!-- validLoginTest(user1, pass123) -->
                   <span class="method-name">validLoginTest</span>
                   <span class="parameters">(user1,pass123)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Intentional failure to test retry
+	at com.orange.crm.test.LoginTest.validLoginTest(LoginTest.java:35)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 7 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-OrangeCRM-class-passed -->
+          </div> <!-- suite-OrangeCRM-class-skipped -->
         </div> <!-- panel OrangeCRM -->
         <div panel-name="test-xml-OrangeCRM" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -212,24 +326,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validLoginTest')
 data.setCell(0, 2, 'com.orange.crm.test.LoginTest')
-data.setCell(0, 3, 38779);
+data.setCell(0, 3, 39717);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'validLoginTest')
 data.setCell(1, 2, 'com.orange.crm.test.LoginTest')
-data.setCell(1, 3, 21611);
+data.setCell(1, 3, 31064);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'validLoginTest')
 data.setCell(2, 2, 'com.orange.crm.test.LoginTest')
-data.setCell(2, 3, 13279);
+data.setCell(2, 3, 30256);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validLoginTest')
+data.setCell(3, 2, 'com.orange.crm.test.LoginTest')
+data.setCell(3, 3, 16342);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validLoginTest')
+data.setCell(4, 2, 'com.orange.crm.test.LoginTest')
+data.setCell(4, 3, 12968);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validLoginTest')
+data.setCell(5, 2, 'com.orange.crm.test.LoginTest')
+data.setCell(5, 3, 5922);
 window.suiteTableData['OrangeCRM']= { tableData: data, tableDiv: 'times-div-OrangeCRM'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-OrangeCRM">
               </div> <!-- times-div-OrangeCRM -->
             </div> <!-- times-div -->
@@ -266,31 +392,73 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">browserStart</span>
-                <span class="method-start">2 ms</span>
+                <span class="method-start">1 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">validLoginTest(admin, password)</span>
-                <span class="method-start">11361 ms</span>
+                <span class="method-name">validLoginTest(123232133, 45454rewfewr324)</span>
+                <span class="method-start">60589 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validLoginTest(user1, pass123)</span>
-                <span class="method-start">25021 ms</span>
+                <span class="method-start">61679 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserStop</span>
+                <span class="method-start">73616 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserStart</span>
+                <span class="method-start">74461 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">browserStop</span>
+                <span class="method-start">78035 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserStart</span>
+                <span class="method-start">79576 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validLoginTest(123232133, 45454rewfewr324)</span>
+                <span class="method-start">80676 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">validLoginTest(123232133, 45454rewfewr324)</span>
-                <span class="method-start">35917 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validLoginTest(user1, pass123)</span>
+                <span class="method-start">96225 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validLoginTest(admin, password)</span>
+                <span class="method-start">98168 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">browserStop</span>
-                <span class="method-start">46771 ms</span>
+                <span class="method-start">120907 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">browserStop</span>
-                <span class="method-start">49233 ms</span>
+                <span class="method-start">127488 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">browserStop</span>
-                <span class="method-start">50146 ms</span>
+                <span class="method-start">128434 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">browserStart</span>
+                <span class="method-start">128929 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validLoginTest(admin, password)</span>
+                <span class="method-start">141310 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">browserStop</span>
+                <span class="method-start">147381 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

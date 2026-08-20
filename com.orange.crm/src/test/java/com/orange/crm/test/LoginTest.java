@@ -1,5 +1,6 @@
 package com.orange.crm.test;
 
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -7,6 +8,7 @@ import com.orange.crm.base.BaseTest;
 import com.orange.crm.data.LoginData;
 import com.orange.crm.listeners.TestListener;
 import com.orange.crm.pages.LoginPage;
+import com.orange.crm.retry.RetryAnalyzer;
 
 @Listeners(TestListener.class)
 public class LoginTest extends BaseTest {
@@ -17,7 +19,8 @@ public class LoginTest extends BaseTest {
      */
 	@Test(
 		    dataProvider = "loginData",
-		    dataProviderClass = LoginData.class
+		    dataProviderClass = LoginData.class,
+		    retryAnalyzer = RetryAnalyzer.class
 		)
 		public void validLoginTest(
 		        String username,
